@@ -4,19 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a778f6f3-ccb1-4885-bf5e-5ba2aaefb964" name="Changes" comment="Webpack and Vite work as expected.&#10;&#10;Ready to start development of Planify.">
-      <change beforePath="$PROJECT_DIR$/.eslintrc.cjs" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.cjs" afterDir="false" />
+    <list default="true" id="a778f6f3-ccb1-4885-bf5e-5ba2aaefb964" name="Changes" comment="Refactor project structure and update ESLint settings&#10;&#10;The project structure has been refactored by moving some files and renaming others to improve organization. The 'First.jsx' file has been deleted as it was not necessary. The ESLint settings have also been updated to specify the version of React being used. Additionally, some commented out code in App.jsx has been uncommented.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vite.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/icons/vite.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/First.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/root/main.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,7 +177,7 @@
       <workItem from="1702704794585" duration="429000" />
       <workItem from="1702705287139" duration="3856000" />
       <workItem from="1702764229946" duration="7387000" />
-      <workItem from="1702851621425" duration="4957000" />
+      <workItem from="1702851621425" duration="5398000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <option name="closed" value="true" />
@@ -245,7 +235,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702769425489</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Refactor project structure and update ESLint settings&#10;&#10;The project structure has been refactored by moving some files and renaming others to improve organization. The 'First.jsx' file has been deleted as it was not necessary. The ESLint settings have also been updated to specify the version of React being used. Additionally, some commented out code in App.jsx has been uncommented.">
+      <option name="closed" value="true" />
+      <created>1702866861418</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1702866861418</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,6 +271,7 @@
     <MESSAGE value="Minor refactoring" />
     <MESSAGE value="Webpack has bugs and should not be used&#10;&#10;Vite works as expected&#10;&#10;Ready to start development." />
     <MESSAGE value="Webpack and Vite work as expected.&#10;&#10;Ready to start development of Planify." />
-    <option name="LAST_COMMIT_MESSAGE" value="Webpack and Vite work as expected.&#10;&#10;Ready to start development of Planify." />
+    <MESSAGE value="Refactor project structure and update ESLint settings&#10;&#10;The project structure has been refactored by moving some files and renaming others to improve organization. The 'First.jsx' file has been deleted as it was not necessary. The ESLint settings have also been updated to specify the version of React being used. Additionally, some commented out code in App.jsx has been uncommented." />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor project structure and update ESLint settings&#10;&#10;The project structure has been refactored by moving some files and renaming others to improve organization. The 'First.jsx' file has been deleted as it was not necessary. The ESLint settings have also been updated to specify the version of React being used. Additionally, some commented out code in App.jsx has been uncommented." />
   </component>
 </project>
