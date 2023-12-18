@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a778f6f3-ccb1-4885-bf5e-5ba2aaefb964" name="Changes" comment="Refactoring &#10;cleaning up">
-      <change afterPath="$PROJECT_DIR$/src/components/Info.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/result.jsx" afterDir="false" />
+    <list default="true" id="a778f6f3-ccb1-4885-bf5e-5ba2aaefb964" name="Changes" comment="Can now serve dist folder to the server ot test final product.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/App.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,33 +53,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;21.3.0&quot;,
-    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;20.10.5&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/aliza/WebstormProjects/CV-App/src/assets/images&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;npm.build:webpack.executor&quot;: &quot;Run&quot;,
-    &quot;npm.format.executor&quot;: &quot;Run&quot;,
-    &quot;npm.lint.executor&quot;: &quot;Run&quot;,
-    &quot;npm.server:webpack.executor&quot;: &quot;Run&quot;,
-    &quot;npm.start:webpack.executor&quot;: &quot;Run&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2023.2.5\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "javascript.nodejs.core.library.configured.version": "21.3.0",
+    "javascript.nodejs.core.library.typings.version": "20.10.5",
+    "last_opened_file_path": "C:/Users/aliza/WebstormProjects/CV-App/src/assets/images",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "npm.build:webpack.executor": "Run",
+    "npm.dist_test.executor": "Run",
+    "npm.format.executor": "Run",
+    "npm.lint.executor": "Run",
+    "npm.server:webpack.executor": "Run",
+    "npm.start:webpack.executor": "Run",
+    "settings.editor.selected.configurable": "settings.sync",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2023.2.5\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\aliza\WebstormProjects\CV-App\src\components\result" />
@@ -187,7 +181,7 @@
       <workItem from="1702705287139" duration="3856000" />
       <workItem from="1702764229946" duration="7387000" />
       <workItem from="1702851621425" duration="8457000" />
-      <workItem from="1702870319506" duration="3848000" />
+      <workItem from="1702870319506" duration="4401000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <option name="closed" value="true" />
@@ -285,7 +279,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702870628202</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Can now serve dist folder to the server ot test final product.">
+      <option name="closed" value="true" />
+      <created>1702874239593</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1702874239593</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -317,6 +319,7 @@
     <MESSAGE value="fixed entry point bug" />
     <MESSAGE value="Fixed all lint errors" />
     <MESSAGE value="Refactoring &#10;cleaning up" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactoring &#10;cleaning up" />
+    <MESSAGE value="Can now serve dist folder to the server ot test final product." />
+    <option name="LAST_COMMIT_MESSAGE" value="Can now serve dist folder to the server ot test final product." />
   </component>
 </project>
