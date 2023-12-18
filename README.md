@@ -2,9 +2,15 @@
 
 Has all needed configs to start developing react + webpack bundling.
 
-## IMPORTANT for first boot:
+
+
+## First time running:
+
 ### Install Node.js
-### Then run these commands one line at a time:
+
+### For Windows Users:
+    Run these commands one line at a time:
+
     npm install
     npm run format
     npm run lint
@@ -15,30 +21,44 @@ Has all needed configs to start developing react + webpack bundling.
 
     or read through the errors and fix them. 
 
-    If errors persist, they can be bypassed by removing the linter
+    If errors persist, they can be bypassed by removing Linter and Prettier.
 
+### For Mac Users:
+    You must:
+
+    1- Modify ".prettierrc" and ".eslintrc.cjs" to make compatible with Mac.
+                              or
+    2- Delete Linter and Prettier libraries.
 
 ## Scripts and Commands Reference
-    ### vite:
+### vite:
+
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
     
-    ### webpack:
+
+### webpack:
+
     "build:webpack": "webpack",
     "watch:webpack": "webpack --watch",
     "start:webpack": "webpack serve --open",
     "server:webpack": "node server.js",
     
-    ### dist. runner:
+
+### dist. runner:
+
     "run_dist": "serve -s dist",
 
-    ### linting
+
+### linting
+
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "fix_lint": "./node_modules/.bin/eslint --fix",
     "format": "prettier --write \"**/*\""
 
-    ### example commands:
+
+### example commands:
 
     npm run dev
     npm run build
