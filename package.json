@@ -11,7 +11,7 @@
 		"build:webpack": "webpack",
 		"watch:webpack": "webpack --watch",
 		"start:webpack": "webpack serve --open",
-		"server:webpack": "node server.js",
+		"server:webpack": "node configs/server.js",
 		"format": "prettier --write \"**/*\""
 	},
 	"dependencies": {
