@@ -22,12 +22,18 @@ Has all needed configs to start developing react + webpack bundling.
 
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
+
     "build:webpack": "webpack",
     "watch:webpack": "webpack --watch",
     "start:webpack": "webpack serve --open",
-    "server:webpack": "node server.js"
+    "server:webpack": "node server.js",
+
+    "run_dist": "serve -s dist",
+
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "fix_lint": "./node_modules/.bin/eslint --fix",
+    "format": "prettier --write \"**/*\""
 
     example commands:
 
