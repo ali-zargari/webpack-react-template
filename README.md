@@ -2,6 +2,8 @@
 
 Has all needed configs to start developing react + webpack bundling.
 
+Make sure to install Node.js and then all other dependencies using the npm command.
+
 ## Scripts and Commands
 
     "dev": "vite",
