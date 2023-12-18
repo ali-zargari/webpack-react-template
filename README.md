@@ -1,6 +1,6 @@
 # React + Webpack
 
-Has all needed configs to start developing react + webpack bundling. 
+Has all needed configs to start developing react + webpack bundling.
 
 ## Scripts and Commands
 
@@ -14,19 +14,20 @@ Has all needed configs to start developing react + webpack bundling.
     "server:webpack": "node server.js"
 
     example commands:
-    
+
     npm run dev
     npm run build
     npm run build:webpack
 
-
 ## Dependencies:
+
 - **express**: ^4.18.2, Fast, unopinionated, minimalist web framework for Node.js.
 - **react**: ^18.2.0, A JavaScript library for creating user interfaces.
 - **react-dom**: ^18.2.0, Provides DOM-specific methods that can be used at the top level of a web app.
 - **url**: ^0.11.3, The core 'url' packaged standalone for use with Browserify.
 
 ## DevDependencies:
+
 - **@babel/core**: ^7.23.6, The core functionality of Babel.
 - **@babel/preset-env**: ^7.23.6, A Babel preset that compiles ES2015+ down to ES5 by automatically determining the Babel plugins and polyfills you need based on your targeted browser or runtime environments.
 - **@babel/preset-react**: ^7.23.3, Babel preset for all React plugins.
@@ -51,4 +52,3 @@ Has all needed configs to start developing react + webpack bundling.
 - **webpack**: ^5.89.0, Static module bundler for JavaScript applications.
 - **webpack-cli**: ^5.1.4, CLI for webpack & ecosystem.
 - **webpack-dev-server**: ^4.15.1, Serves a webpack app and updates the browser on changes.
-
