@@ -2,7 +2,21 @@
 
 Has all needed configs to start developing react + webpack bundling.
 
-Make sure to install Node.js and then all other dependencies using the npm command.
+## IMPORTANT for first boot:
+### Install Node.js
+### Run the following commands one line at a time:
+    npm install
+    npm run format
+    npm run lint
+    
+    if there are errors, run:
+    
+    npm run fix_lint
+
+    or read through the errors and fix them. 
+
+    If errors persist, they can be bypassed by removing the linter
+
 
 ## Scripts and Commands
 
