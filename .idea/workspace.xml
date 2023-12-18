@@ -5,13 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a778f6f3-ccb1-4885-bf5e-5ba2aaefb964" name="Changes" comment="Webpack and Vite work as expected.&#10;&#10;Ready to start development of Planify.">
-      <change beforePath="$PROJECT_DIR$/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.cjs" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.cjs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vite.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/icons/vite.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/First.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/root/main.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,8 +73,8 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "javascript.nodejs.core.library.configured.version": "21.3.0",
-    "javascript.nodejs.core.library.typings.version": "20.10.4",
-    "last_opened_file_path": "C:/Users/aliza/WebstormProjects/Odin-React",
+    "javascript.nodejs.core.library.typings.version": "20.10.5",
+    "last_opened_file_path": "C:/Users/aliza/WebstormProjects/CV-App/src/assets/images",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -85,11 +90,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\aliza\WebstormProjects\Planify" />
-      <recent name="C:\Users\aliza\WebstormProjects\Planify\config" />
-      <recent name="C:\Users\aliza\WebstormProjects\Planify\src\components\App" />
-      <recent name="C:\Users\aliza\WebstormProjects\Planify\src\assets\icons" />
-      <recent name="C:\Users\aliza\WebstormProjects\Planify\src" />
+      <recent name="C:\Users\aliza\WebstormProjects\CV-App\src\components\root" />
+      <recent name="C:\Users\aliza\WebstormProjects\CV-App\src\components" />
+      <recent name="C:\Users\aliza\WebstormProjects\CV-App\src\assets\icons" />
+      <recent name="C:\Users\aliza\WebstormProjects\CV-App\src\styles" />
+      <recent name="C:\Users\aliza\WebstormProjects\CV-App\src\assets\images" />
     </key>
   </component>
   <component name="RunManager" selected="npm.server:webpack">
@@ -182,6 +187,7 @@
       <workItem from="1702704794585" duration="429000" />
       <workItem from="1702705287139" duration="3856000" />
       <workItem from="1702764229946" duration="7387000" />
+      <workItem from="1702851621425" duration="4957000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <option name="closed" value="true" />

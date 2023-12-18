@@ -26,4 +26,9 @@ module.exports = {
     quotes: ["error", "double"],
     semi: ["error", "always"],
   },
+  settings: {
+    react: {
+      version: "18.2.0", // change the version number to your specific version
+    },
+  },
 };

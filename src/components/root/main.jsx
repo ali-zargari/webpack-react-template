@@ -1,11 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./components/App/App.jsx";
-import Greeting from "./First.jsx";
-import "./index.css";
+import App from "../App/App.jsx";
+import "../../styles/index.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <Greeting />
+    <App />
   </React.StrictMode>,
 );
