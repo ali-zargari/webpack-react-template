@@ -18,7 +18,7 @@ Has all needed configs to start developing react + webpack bundling.
     If errors persist, they can be bypassed by removing the linter
 
 
-## Scripts and Commands
+## Scripts and Commands Reference
     ### vite:
     "dev": "vite",
     "build": "vite build",
