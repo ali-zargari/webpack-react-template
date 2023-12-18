@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a778f6f3-ccb1-4885-bf5e-5ba2aaefb964" name="Changes" comment="Refactoring &#10;cleaning up">
+      <change afterPath="$PROJECT_DIR$/src/components/Info.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/result.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/App.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,19 +89,19 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\aliza\WebstormProjects\CV-App\src\components\result" />
+      <recent name="C:\Users\aliza\WebstormProjects\CV-App\src\components\info_panel" />
+      <recent name="C:\Users\aliza\WebstormProjects\CV-App\src\front-end" />
+      <recent name="C:\Users\aliza\WebstormProjects\CV-App\src\assets" />
       <recent name="C:\Users\aliza\WebstormProjects\CV-App" />
-      <recent name="C:\Users\aliza\WebstormProjects\CV-App\configs" />
-      <recent name="C:\Users\aliza\WebstormProjects\CV-App\src\components\App" />
-      <recent name="C:\Users\aliza\WebstormProjects\CV-App\src\components" />
-      <recent name="C:\Users\aliza\WebstormProjects\CV-App\src\components\root" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.lint">
-    <configuration name="build:webpack" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="npm.dist_test">
+    <configuration name="dist_test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
-        <script value="build:webpack" />
+        <script value="dist_test" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -142,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.dist_test" />
         <item itemvalue="npm.lint" />
         <item itemvalue="npm.format" />
         <item itemvalue="npm.server:webpack" />
         <item itemvalue="npm.start:webpack" />
-        <item itemvalue="npm.build:webpack" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +187,7 @@
       <workItem from="1702705287139" duration="3856000" />
       <workItem from="1702764229946" duration="7387000" />
       <workItem from="1702851621425" duration="8457000" />
-      <workItem from="1702870319506" duration="292000" />
+      <workItem from="1702870319506" duration="3848000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <option name="closed" value="true" />
@@ -270,7 +277,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702870481136</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Refactoring &#10;cleaning up">
+      <option name="closed" value="true" />
+      <created>1702870628202</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1702870628202</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
